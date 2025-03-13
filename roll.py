@@ -11,7 +11,7 @@ def roll_dice ():
     yes = True
     while yes == True:
         numberOfDice = input("How many dice would you like to roll? \n")
-        results = []
+        # results = []
         for i in range(int(numberOfDice)):
             x= int(randrange(1,7))
             results.append(x)
@@ -20,5 +20,5 @@ def roll_dice ():
         if playAgain == "No":
             yes = False
 
-
+results = []
 roll_dice()
